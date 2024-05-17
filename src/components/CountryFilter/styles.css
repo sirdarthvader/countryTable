@@ -1,0 +1,44 @@
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-container .left {
+  display: flex;
+  gap: 15px;
+}
+
+.filter-container input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.filter-container select {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  appearance: none;
+  background-color: white;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 20 20"><path fill="none" stroke="black" stroke-width="2" d="M1 6 L10 15 L19 6" /></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.filter-container button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f4f4f4;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.filter-container button:hover {
+  background-color: #eaeaea;
+}
